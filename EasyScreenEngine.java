@@ -5,7 +5,7 @@
 ║ Only uses 4 functions, but its the base for making all the other functions that the users may need														   ║
 ║ por Pablo Leonor                                                                                                                 ║
 ║ 18-06-2026                                                                                                                       ║
-║ EasyScreenEngine © 2024 by Pablo Leonor is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International║
+║ EasyScreenEngine © 2026 by Pablo Leonor is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International║
 ╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 */
 import javax.swing.*;
