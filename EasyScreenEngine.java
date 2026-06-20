@@ -1,8 +1,10 @@
+package ejemplo;
+
 /*
 ╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║ EasyScreenEngine                                                                                                                 ║
-║ Simple Engine for drawing in a java screen, in a native way						                                                           ║	
-║ Only uses 4 functions, but its the base for making all the other functions that the users may need														   ║
+║ Simple Engine for drawing in a java screen, in a native way						                                               ║	
+║ Only uses 4 functions, but its the base for making all the other functions that the users may need							   ║
 ║ por Pablo Leonor                                                                                                                 ║
 ║ 18-06-2026                                                                                                                       ║
 ║ EasyScreenEngine © 2026 by Pablo Leonor is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International║
@@ -112,10 +114,7 @@ public class EasyScreenEngine {
                 }
             }
         });
-        panel.setPreferredSize(new Dimension(  //maquetación, aquí se coloca en la pantalla del ordenador las configuraciones previas
-                scalable && !pixelPerfect ? w * 2 : w,
-                scalable && !pixelPerfect ? h * 2 : h
-        ));
+        panel.setPreferredSize(new Dimension(w, h)); //maquetación, aquí se coloca en la pantalla del ordenador las configuraciones previas
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(scalable);
         frame.add(panel);
